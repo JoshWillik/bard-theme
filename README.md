@@ -1,8 +1,7 @@
 # Breathe
 
-**Breathe** is a minimalist theme for the Ghost blogging platform. Mostly a derivative of the [Zen Habit's theme `zh2`](http://zenhabits.net/theme/), which is uncopyrighted.
-
-[![Preview](/screenshot-preview.png?raw=true)](/screenshot.png?raw=true)
+**Bard** is a minimalist theme for the Ghost blogging platform.
+It is forked from [Breathe](https://github.com/belen-albeza/breathe-theme) and has a couple of extra features, like an author page.
 
 ## Installation
 
@@ -25,18 +24,10 @@ You can create a menu and it will be displayed at the top, near the blog's title
 
 This theme does _not_ display:
 
-- Links to author pages
 - Tags
 - Post cover images
 - Blog cover images
 - Authors' avatars
-
-## Changelog
-
-- **1.0.1**
-  - Fix pagination showing up in static pages
-- **1.0.0**
-  - First version
 
 ## Development
 
