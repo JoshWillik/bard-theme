@@ -1,15 +1,17 @@
 {{!< default}}
 
 {{# author}}
-  <h1>Posts by {{name}}</h1>
+  <h1>By {{name}}</h1>
 {{/author}}
 
 {{#foreach posts}}
   <article class="{{post_class}}">
     <h2><a href="{{url}}" class="permalink">{{title}}</a></h2>
     <p>
-      {{excerpt words="26"}}
-      <a href="{{url}}">Read More</a>
+      {{content}}
+      <a href="{{url}}">Permalink</a>
     </p>
   </article>
+
+  {{>post_navigation}}
 {{/foreach}}

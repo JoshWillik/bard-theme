@@ -18,10 +18,7 @@
       <time class="post-time" datetime="{{date format='YYYY-MM-DD'}}">{{date}}</time>.
       <a href="{{url}}" class="permalink">Permalink</a>.
     </p>
-    <nav class="post-nav">
-      {{#prev_post}}<span class="post-nav-item prev">Previous: <a href="{{url}}">{{title}}</a></span>{{/prev_post}}
-      {{#next_post}}<span class="post-nav-item next">Next: <a href="{{url}}">{{title}}</a></span>{{/next_post}}
-    </nav>
+    {{>post_navigation}}
   </footer>
   {{/is}}
 </article>
