@@ -1,0 +1,8 @@
+  <nav class="post-nav">
+    {{#if prev}}
+      <span class="post-nav-item prev"><a href="{{page_url prev}}">Newer Story</a></span>
+    {{/if}}
+    {{#if next}}
+      <span class="post-nav-item next"><a href="{{page_url next}}">Older Story</a></span>
+    {{/if}}
+  </nav>
