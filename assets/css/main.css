@@ -398,6 +398,7 @@ blockquote {
 }
 .main-header > * {
   flex: 0 1 auto;
+  width: 50%;
 }
 .main-header .main-menu {
   align-self: center;
