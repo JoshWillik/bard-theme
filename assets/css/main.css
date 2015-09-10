@@ -390,6 +390,7 @@ blockquote {
 .main-wrapper {
   max-width: 42em;
   margin: 0 auto;
+  padding: 0 1em;
 }
 .main-header {
   display: flex;
@@ -480,4 +481,15 @@ blockquote {
 }
 .post-content hr {
   width: 10%;
+}
+@media screen and (max-width: 540px) {
+  .main-menu li {
+    display: block;
+  }
+  .main-menu li:first-child {
+    margin-left: 0.5em;
+  }
+  .main-header h1 {
+    margin-bottom: 0.5em;
+  }
 }
