@@ -1,6 +1,6 @@
 {
-  "name": "breathe-theme",
-  "version": "1.0.1",
+  "name": "bard-theme",
+  "version": "1.0.0",
   "description": "Minimalist theme for Ghost",
   "main": "index.js",
   "scripts": {
@@ -8,19 +8,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/belen-albeza/breathe-theme.git"
+    "url": "git+https://github.com/joshwillik/bard-theme.git"
   },
   "keywords": [
     "ghost",
     "theme",
     "blog"
   ],
-  "author": "Belén \"Benko\" Albeza",
+  "author": "Josh Vanderwillik",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/belen-albeza/breathe-theme/issues"
+    "url": "https://github.com/joshwillik/bard-theme/issues"
   },
-  "homepage": "https://github.com/belen-albeza/breathe-theme#readme",
+  "homepage": "https://github.com/joshwillik/bard-theme#readme",
   "devDependencies": {
     "gulp": "^3.9.0",
     "gulp-less": "^3.0.3",
