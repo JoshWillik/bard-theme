@@ -1,5 +1,16 @@
 {{!< default}}
 
-{{#foreach posts}}
-  {{> post-single}}
-{{/foreach}}
+<div class="columns">
+  {{#get "users"}}
+    {{#foreach users}}
+      <div class="column">
+        <h2>{{name}}</h2>
+        {{#get "posts" filter="author:{{slug}}" limit="1" include="author"}}
+          {{#foreach posts}}
+            {{> post-preview}}
+          {{/foreach}}
+        {{/get}}
+      </div>
+    {{/foreach}}
+  {{/get}}
+</div>

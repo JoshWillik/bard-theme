@@ -43,7 +43,7 @@ blockquote {
 }
 
 .main-wrapper {
-  max-width: 42em;
+  max-width: 60em;
   margin: 0 auto;
   padding: 0 1em;
 }
@@ -139,6 +139,28 @@ blockquote {
   &.prev:last-child, &.next:first-child {
     width: 100%;
     text-align: center;
+  }
+}
+
+
+.post-preview {
+  .post-header h1 {
+     font-size: 1.25em;
+     text-align: left;
+  }
+  
+  .post-links a {
+    display: block;
+    margin: 1em;
+    text-align: center;
+  }
+}
+
+
+.columns {
+  display: flex;
+  .column {
+    margin: 0 2em;
   }
 }
 
